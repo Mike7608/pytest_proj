@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pytest project"
+version = "0.1.0"
+description = "Урок по pytest"
+authors = ["Mike Kushner <mike760807@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
